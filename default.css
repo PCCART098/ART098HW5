@@ -1,8 +1,31 @@
+@media screen and (max-width: 2000px){
+    body{
+        text-align: left;
+    }
+    .card1{
+        height: 500px;
+        width: 63vw;
+    }
+    .card2{
+        height: 500px;
+        width: 33vw;
+    }
+    .card3{
+        height: 500px;
+        width: 96vw;
+    }
+}
 body{
     margin: 0;
     background-image: url(images/bg.jpeg);
     background-size: cover;
-    padding-top: 200px;
+    font-family: 'Nova Flat', cursive;
+}
+.headTitle{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
 }
 .containerDiv{
     
@@ -23,14 +46,14 @@ body{
 }
 .card2{
     height: 400px;
-    width: 57vw;
+    width: 10vw;
     background-image: url(images/card2.jpeg);
     background-size: cover;
     background-position: center;
 }
 .card3{
     height: 400px;
-    width: 10vw;
+    width: 57vw;
     background-image: url(images/card3.jpg);
     background-size: cover;
     background-position: center;
