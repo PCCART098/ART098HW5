@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    background-image: url(images/bg.jpeg);
+    background-size: cover;
+    padding-top: 200px;
+}
+.containerDiv{
+    
+}
+.cards{
+    background-color: #efefef;
+    float: left;
+    margin-left: 2vw;
+    margin-bottom: 20px;
+    box-shadow: -0.5vw 0.5vw 1vw 0.5vw #c9d8f2;
+    border-radius: 5px;
+}
+.card1{
+    height: 400px;
+    width: 25vw;
+    background-image: url(images/card1.jpg);
+    background-size: cover;
+}
+.card2{
+    height: 400px;
+    width: 57vw;
+    background-image: url(images/card2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.card3{
+    height: 400px;
+    width: 10vw;
+    background-image: url(images/card3.jpg);
+    background-size: cover;
+    background-position: center;
+}
